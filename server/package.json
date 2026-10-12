@@ -1,0 +1,26 @@
+{
+  "name": "teamsync-server",
+  "version": "1.0.0",
+  "description": "Backend API for TeamSync Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "teamsync-workspace": "file:.."
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "teamsync",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT"
+}
